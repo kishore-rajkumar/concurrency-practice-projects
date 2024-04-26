@@ -39,7 +39,7 @@ class DataPartitionerTest {
 		
 		List<Integer> expected=DataSet.create(5);
 		List<Integer> actual = partitions.get(0);
-
+		
 		assertEquals(expected,actual);
 	}
 
