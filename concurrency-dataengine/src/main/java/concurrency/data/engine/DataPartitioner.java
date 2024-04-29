@@ -19,6 +19,7 @@ public class DataPartitioner {
 			partitions.add(dataset.subList(start, end));
 		}
 		
+		System.out.println("Dataset Partitioned: size= " + partitions.size());
 		return partitions;
 	}
 

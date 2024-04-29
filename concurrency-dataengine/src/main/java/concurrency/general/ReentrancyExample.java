@@ -4,6 +4,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ReentrancyExample {
+//    private static final Lock lock = new ReentrantLock(); // Reentrant lock
+    
     private static final Lock lock = new ReentrantLock(); // Reentrant lock
 
     // Recursive method that requires reentrant locking
